@@ -1,0 +1,15 @@
+CREATE DATABASE USUARIOS;
+
+USE USUARIOS;
+
+CREATE TABLE CLIENTES(
+Id int primary key auto_increment ,
+Nombre varchar (50),
+Apellido varchar (50),
+Edad int,
+Direccion varchar (50),
+Dui varchar (50),
+Nit varchar (50),
+grupoDeClaseProgramacion3Alquepertenece int,
+utimaNotaObtenidaEnProgramacion2 double
+)
